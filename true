@@ -1,0 +1,260 @@
+[1590206192.511][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 21608
+[1590206192.511][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590206193.290][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1590206193.293][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1590206193.295][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1590206193.304][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\Owner\AppData\Local\Temp\scoped_dir15476_481855313\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Owner\AppData\Local\Temp\scoped_dir15476_1416887578" data:,
+[1590206194.006][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1590206196.032][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "C:\\Users\\Owner\\AppData\\Local\\Temp\\scoped_dir15476_1416887578"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55884"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "4b63ad68bc03cdd243bba229201581dc"
+}
+[1590206196.104][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND Navigate {
+   "url": "http://166.62.36.207/syntaxpractice/table-search-filter-demo.html"
+}
+[1590206196.104][INFO]: Waiting for pending navigations...
+[1590206196.107][INFO]: Done waiting for pending navigations. Status: ok
+[1590206196.446][INFO]: Waiting for pending navigations...
+[1590206196.631][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590206196.733][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590206196.834][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590206196.935][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590206197.232][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590206197.321][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.321][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE Navigate
+[1590206197.332][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table[@id='task-table']/tbody/tr"
+}
+[1590206197.332][INFO]: Waiting for pending navigations...
+[1590206197.333][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.347][INFO]: Waiting for pending navigations...
+[1590206197.347][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.347][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "fae1c97b-081a-4812-a3fd-6e692ec8c193"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f33c3b7c-a3cf-4732-9998-21bae4bc94c7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6b98db39-1705-41bc-94bd-6baa6f3b828c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "774af9d3-32fe-4192-bb59-5af6a1cac60b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3c4e3166-3181-487d-8043-7b9c0db7d1a6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "858e883a-d7e4-4cde-a734-37f34c04ecb7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d1e6f72f-ce6c-45d0-bd4f-3722e934b32e"
+} ]
+[1590206197.358][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "fae1c97b-081a-4812-a3fd-6e692ec8c193"
+}
+[1590206197.358][INFO]: Waiting for pending navigations...
+[1590206197.359][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.373][INFO]: Waiting for pending navigations...
+[1590206197.374][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.374][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "1 Wireframes John Smith in progress"
+[1590206197.376][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "f33c3b7c-a3cf-4732-9998-21bae4bc94c7"
+}
+[1590206197.376][INFO]: Waiting for pending navigations...
+[1590206197.377][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.389][INFO]: Waiting for pending navigations...
+[1590206197.389][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.389][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "2 Landing Page Mike Trout completed"
+[1590206197.391][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "6b98db39-1705-41bc-94bd-6baa6f3b828c"
+}
+[1590206197.391][INFO]: Waiting for pending navigations...
+[1590206197.392][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.405][INFO]: Waiting for pending navigations...
+[1590206197.410][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.410][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "3 SEO tags Loblab Dan failed qa"
+[1590206197.412][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "774af9d3-32fe-4192-bb59-5af6a1cac60b"
+}
+[1590206197.412][INFO]: Waiting for pending navigations...
+[1590206197.413][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.425][INFO]: Waiting for pending navigations...
+[1590206197.425][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.425][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "4 Bootstrap 3 Emily John in progress"
+[1590206197.427][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "3c4e3166-3181-487d-8043-7b9c0db7d1a6"
+}
+[1590206197.427][INFO]: Waiting for pending navigations...
+[1590206197.428][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.440][INFO]: Waiting for pending navigations...
+[1590206197.441][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.441][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "5 jQuery library Holden Charles deployed"
+[1590206197.443][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "858e883a-d7e4-4cde-a734-37f34c04ecb7"
+}
+[1590206197.443][INFO]: Waiting for pending navigations...
+[1590206197.443][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.456][INFO]: Waiting for pending navigations...
+[1590206197.457][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.457][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "6 Browser Issues Jane Doe failed qa"
+[1590206197.459][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "d1e6f72f-ce6c-45d0-bd4f-3722e934b32e"
+}
+[1590206197.459][INFO]: Waiting for pending navigations...
+[1590206197.459][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.471][INFO]: Waiting for pending navigations...
+[1590206197.472][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.472][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "7 Bug fixing Kilgore Trout in progress"
+[1590206197.477][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//table[@id='task-table']/thead/tr/th"
+}
+[1590206197.477][INFO]: Waiting for pending navigations...
+[1590206197.478][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.488][INFO]: Waiting for pending navigations...
+[1590206197.489][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.489][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "cfcbe6d7-904c-4988-a32a-63006c467616"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "91deca1d-f005-49d6-969d-01aba097e22b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "20d0c4b9-1437-4b9c-842b-fb9e68e20043"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "633a747d-adfe-4f90-a1c4-c408817e08f1"
+} ]
+[1590206197.491][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "cfcbe6d7-904c-4988-a32a-63006c467616"
+}
+[1590206197.491][INFO]: Waiting for pending navigations...
+[1590206197.492][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.502][INFO]: Waiting for pending navigations...
+[1590206197.502][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.502][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "#"
+[1590206197.506][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "91deca1d-f005-49d6-969d-01aba097e22b"
+}
+[1590206197.506][INFO]: Waiting for pending navigations...
+[1590206197.507][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.518][INFO]: Waiting for pending navigations...
+[1590206197.519][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.519][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "Task"
+[1590206197.521][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "20d0c4b9-1437-4b9c-842b-fb9e68e20043"
+}
+[1590206197.521][INFO]: Waiting for pending navigations...
+[1590206197.522][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.533][INFO]: Waiting for pending navigations...
+[1590206197.534][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.534][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "Assignee"
+[1590206197.536][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND GetElementText {
+   "id": "633a747d-adfe-4f90-a1c4-c408817e08f1"
+}
+[1590206197.536][INFO]: Waiting for pending navigations...
+[1590206197.536][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.546][INFO]: Waiting for pending navigations...
+[1590206197.546][INFO]: Done waiting for pending navigations. Status: ok
+[1590206197.546][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE GetElementText "Status"
+[1590206197.549][INFO]: [4b63ad68bc03cdd243bba229201581dc] COMMAND CloseWindow {
+
+}
+[1590206197.695][INFO]: [4b63ad68bc03cdd243bba229201581dc] RESPONSE CloseWindow [  ]
